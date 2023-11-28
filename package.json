@@ -1,0 +1,12 @@
+{
+  "name": "fastcampus",
+  "version": "1.0.0",
+  "description": "수강 실습예제 파일",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
