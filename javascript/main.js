@@ -24,3 +24,6 @@ function hello() {
 }
 
 hello();
+
+//화살표함수
+const c = () => {};
