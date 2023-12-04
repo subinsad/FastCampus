@@ -27,3 +27,37 @@ hello();
 
 //화살표함수
 const c = () => {};
+
+//this
+//일반 함수의 this는 호출 위치에서 정의
+//화살표 함수의 this는 자신이 선언된 함수 범위에서 정의
+
+//es6 classes
+/* function User(first,last){
+    this.firstName = first
+    this.lastName = last
+}
+
+const heropy = new User('Heropy','Park')
+
+console.log(heropy)
+
+*/
+
+//getter : 값을 조회 ,setter : 값을 할당
+
+class User {
+    constructor(first, last) {
+        this.firstName = first;
+        this.lastName = last;
+    }
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+
+    set fullName(value) {
+        console.log(value);
+    }
+}
+
+console.log(heropy.firstName);
