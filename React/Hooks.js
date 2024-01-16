@@ -35,3 +35,5 @@ const value = useContext(MyContext);
 
 // component위에 가장 가까운 <MyContext.Provider>가 업데이트 되면 이 Hook은 해당 MyContext Provider에게
 // 전달된 최신 Context value로 다시 렌더링을 트리거 합니다.
+
+//실강 정리
