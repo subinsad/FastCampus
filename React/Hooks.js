@@ -24,3 +24,14 @@
 
 //5. class 컴포넌트와 비교했을 때 함수형 컴포넌트 장점?
 // 더 짧고 간결한 코드 / 더 빠른 성능/ 더 나은 가독성
+
+useContext;
+
+const value = useContext(MyContext);
+
+// context객체를 인수로 가지고 현재 context value를 반환
+// 현재 context value는 트리에서 호출 구성 요소 위에 가장 가까운 <MyContext.Provider>의
+// value prop에 의해 결정됨
+
+// component위에 가장 가까운 <MyContext.Provider>가 업데이트 되면 이 Hook은 해당 MyContext Provider에게
+// 전달된 최신 Context value로 다시 렌더링을 트리거 합니다.
